@@ -1,0 +1,109 @@
+{
+    "29": [
+        {
+            "name": "0153 x 40.875\" grd 80 Smooth",
+            "thickness": 0.0153,
+            "width": 40.875,
+            "grade": 80,
+            "basePrice": 2.22,
+            "finishes": {
+                "smooth": 0,
+                "ulg": 0.06,
+                "textured": 0.18,
+                "gallery": 0.10,
+                "copper": 0.20
+            }
+        },
+        {
+            "name": "0150 x 40.875 grade 80 Acrylic Galvalume",
+            "thickness": 0.0150,
+            "width": 40.875,
+            "grade": 80,
+            "basePrice": 1.70,
+            "finishes": {
+                "smooth": 0
+            }
+        }
+    ],
+    "26": [
+        {
+            "name": "0185 x 41.5625\" grd 50 Smooth",
+            "thickness": 0.0185,
+            "width": 41.5625,
+            "grade": 50,
+            "basePrice": 2.64,
+            "finishes": {
+                "smooth": 0,
+                "ulg": 0.08,
+                "gallery": 0.13,
+                "textured": 0.23,
+                "copper": 0.26
+            }
+        },
+        {
+            "name": "0185 x 20\" grade 50 Smooth",
+            "thickness": 0.0185,
+            "width": 20,
+            "grade": 50,
+            "basePrice": 1.41,
+            "finishes": {
+                "smooth": 0,
+                "ulg": 0.04,
+                "gallery": 0.07,
+                "textured": 0.12,
+                "copper": 0.14
+            }
+        },
+        {
+            "name": "0185 x 43\" grd 80 Smooth",
+            "thickness": 0.0185,
+            "width": 43,
+            "grade": 80,
+            "basePrice": 2.69,
+            "finishes": {
+                "smooth": 0,
+                "gallery": 0.13,
+                "textured": 0.23,
+                "copper": 0.26
+            }
+        }
+    ],
+    "24": [
+        {
+            "name": "230 x 43\" grade 50 AZ50 PVDF Smooth",
+            "thickness": 0.230,
+            "width": 43,
+            "grade": 50,
+            "basePrice": 4.37,
+            "finishes": {
+                "smooth": 0,
+                "regal": 0.50
+            }
+        },
+        {
+            "name": "230 x 48.375 grade 50 AZ50 PVDF Smooth",
+            "thickness": 0.230,
+            "width": 48.375,
+            "grade": 50,
+            "basePrice": 5.08,
+            "finishes": {
+                "smooth": 0,
+                "regal": 0.57
+            }
+        },
+        {
+            "name": "230 x 20\" grade 50 AZ50 PVDF Smooth",
+            "thickness": 0.230,
+            "width": 20,
+            "grade": 50,
+            "basePrice": 2.19,
+            "finishes": {
+                "smooth": 0,
+                "regal": 0.24,
+                "liner": -0.20,
+                "camo": 1.96,
+                "woodgrain": 2.66
+            }
+        }
+    ]
+} 

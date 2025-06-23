@@ -1,0 +1,109 @@
+.job-summary-container h2,
+.line-items-section h3,
+.totals-section h3 {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.summary-actions {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.action-button.clear {
+    background-color: #dc3545;
+}
+
+.action-button.print {
+    background-color: #007bff;
+}
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.summary-table th, .summary-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.summary-table thead th {
+    background-color: #f8f9fa;
+}
+
+.remove-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.totals-section {
+    margin-top: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.profit-row {
+    background-color: #cce5ff;
+    border-left: 3px solid #004085;
+}
+
+
+/* Print Styles */
+@media print {
+    body, .App {
+        background: white;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .tab-buttons, .summary-actions, .remove-button,
+    .calculator-container, h2 {
+        display: none;
+    }
+    
+    .job-summary-container {
+        display: block !important; /* Make sure it's visible */
+    }
+
+    .job-summary-container::before {
+        content: "Customer Quote";
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .summary-table, .totals-section {
+        page-break-inside: avoid;
+    }
+} 
